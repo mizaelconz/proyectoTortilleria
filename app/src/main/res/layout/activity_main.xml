@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#D1BA6F"
+    android:background="@drawable/registrofondo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="398dp"
+        android:layout_height="319dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logonuevo" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="89dp"
+        android:text="¡Tortillas de calidad!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="#7e3722"
+        android:padding="20dp"
+        android:text="¿Ya Tienes una Cuenta? ¡Ingresa!"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/main_join_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="#7e3722"
+        android:padding="20dp"
+        android:text="¡Registrate Ahora!"
+        android:textAllCaps="false"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="20dp"
+
+        />
+
+
+</RelativeLayout>

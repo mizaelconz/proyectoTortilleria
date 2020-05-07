@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "130012876905",
+    "firebase_url": "https://deliciascely.firebaseio.com",
+    "project_id": "deliciascely",
+    "storage_bucket": "deliciascely.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130012876905:android:7723f9e76e6d89a5",
+        "android_client_info": {
+          "package_name": "com.example.deliciascely"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130012876905-73j90dtumvv0q7ermliut05kp5sea4md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deliciascely",
+            "certificate_hash": "dc952ef11a36ae9fe4479a86b1e80d1b5c88f54c"
+          }
+        },
+        {
+          "client_id": "130012876905-nira4940feg8qc4gkf6m9iput1bhrcki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhN-Kj1saonvol0hUKINlva5qMH9Of8WA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130012876905-nira4940feg8qc4gkf6m9iput1bhrcki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity"
+    android:background="#D1BA6F">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:text="Agregar Nuevos Productos"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="417dp"
+        android:layout_height="301dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/comida" />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slogan_category"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/tortillas"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/tortillaspng" />
+
+        <ImageView
+            android:id="@+id/totopos"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/totopospng" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/salsa"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/salsaspng" />
+
+    <ImageView
+        android:id="@+id/frijoles"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/frijolespng" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
